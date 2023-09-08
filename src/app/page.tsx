@@ -8,7 +8,7 @@ export default function Home() {
         <nav className="border-gray-200">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
             <a href="/home" className="flex items-center">
-              <Image src={Logo} alt="logo" width={150} />
+              <Image src={Logo} alt="logo" width={120} className="logo"/>
             </a>
             <button
               data-collapse-toggle="navbar-default"
@@ -35,7 +35,7 @@ export default function Home() {
               </svg>
             </button>
             <div
-              className="hidden w-full md:block md:w-auto"
+              className="hidden w-full md:block md:w-auto mr-10"
               id="navbar-default"
             >
               <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 text-white  md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
