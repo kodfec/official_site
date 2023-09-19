@@ -4,9 +4,7 @@ import NavBar from "./component/NavBar";
 export default function Home() {
   return (
     <div className="body">
-     
-<NavBar/>
-
+      <NavBar />
 
       <div>
         {/* first card */}
@@ -46,6 +44,3 @@ export default function Home() {
     </div>
   );
 }
-
-
-

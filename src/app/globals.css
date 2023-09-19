@@ -15,19 +15,19 @@
 .header {
   background-color: transparent;
   color: white;
-  height: 60px;
+  height: 100px;
   width: 100vw;
   position: fixed;
   z-index: 1000;
   padding-left: 10px;
   padding-right: 40px;
+  background-color: #001627;
 
 }
 
 .logo{
   margin-top: -20px;
-  margin-left: 5px;
-}
+  }
 
 .footer {
   background-color: #001627;
@@ -49,10 +49,9 @@
   position: sticky;
   top: 0;
   z-index: -9999;
-  position: relative;
 }
 .wordcontent{
-  width: 50%;
+  width: 60%;
   background-color: rgba(0, 0, 0, 0.74);
   opacity: 3;
   padding-left: 4%;
@@ -60,8 +59,8 @@
   display: inline-block;
   justify-content: center;
   align-items: center;
-   position: absolute;
-   
+  margin-left: 50%;
+  margin-top: 30%;
 }
 .mainspan{
   font-size: 25px;
