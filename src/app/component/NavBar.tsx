@@ -1,11 +1,26 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import Image from "next/image";
 import Logo from "/public/res/kodfec logo (1024 × 1024px).svg";
 import Link from "next/link";
 
-const NavBar = () => {
+const CloseIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="w-6 h-6"
+  >
+    <line x1="18" y1="6" x2="6" y2="18" />
+    <line x1="6" y1="6" x2="18" y2="18" />
+  </svg>
+);
 
+const NavBar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
@@ -63,9 +78,19 @@ const NavBar = () => {
       </div>
       <div
         id="mobile-menu"
-        className={`md:hidden ${isMobileMenuOpen ? "block" : "hidden"}`}
+        className={`md:hidden ${
+          isMobileMenuOpen ? "block" : "hidden"
+        }  fixed top-0 right-0 h-screen w-60 bg-blue-800`}
       >
-        <ul className="mt-2 space-y-2 absolute right-8 bg-slate-500 w-32">
+        <button
+          id="mobile-menu-button"
+          className="inline-flex items-center mr-6 p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          onClick={toggleMobileMenu}
+        >
+          {isMobileMenuOpen ? <CloseIcon /> : <div>Menu</div>}
+        </button>
+
+        <ul className="mt-10 space-y-4 text-center">
           <li>
             <Link href="/">
               <div className="block text-white hover:text-blue-300">Home</div>
@@ -78,17 +103,23 @@ const NavBar = () => {
           </li>
           <li>
             <Link href="/services">
-              <div className="block text-white hover:text-blue-300">Services</div>
+              <div className="block text-white hover:text-blue-300">
+                Services
+              </div>
             </Link>
           </li>
           <li>
             <Link href="/portfolio">
-              <div className="block text-white hover:text-blue-300">Portfolio</div>
+              <div className="block text-white hover:text-blue-300">
+                Portfolio
+              </div>
             </Link>
           </li>
           <li>
             <Link href="/contact">
-              <div className="block text-white hover:text-blue-300">Contact</div>
+              <div className="block text-white hover:text-blue-300">
+                Contact
+              </div>
             </Link>
           </li>
         </ul>
