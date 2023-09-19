@@ -21,16 +21,16 @@ export default function Home() {
                 top: 0,
               }}
             />
-            <div className=" rounded-md p-6 bg-transparent wordcontent lg:top-52">
-              <span className=" font-bold text-lg mb-10 mainspan">
+            {/* <div className=" rounded-md p-6 bg-transparent wordcontent lg:top-52"> */}
+              {/* <span className=" font-bold text-lg mb-10 mainspan">
                 Powering Possibilities through Innovative Code
-              </span>
-              <p className=" ml-7 mt-4">
+              </span> */}
+              {/* <p className=" ml-7 mt-4">
                 Using innovative and cutting-edge coding techniques to create
                 software solutions that open up new possibilities for businesses
                 and individuals.
-              </p>
-            </div>
+              </p> */}
+            {/* </div> */}
           </div>
         </div>
 

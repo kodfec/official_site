@@ -25,9 +25,9 @@
 
 }
 
-.logo{
+.logo {
   margin-top: -20px;
-  }
+}
 
 .footer {
   background-color: #001627;
@@ -38,6 +38,7 @@
   align-items: center;
 
 }
+
 .card {
   margin: 0;
   width: 100%;
@@ -50,7 +51,8 @@
   top: 0;
   z-index: -9999;
 }
-.wordcontent{
+
+.wordcontent {
   width: 60%;
   background-color: rgba(0, 0, 0, 0.74);
   opacity: 3;
@@ -59,12 +61,13 @@
   display: inline-block;
   justify-content: center;
   align-items: center;
-position: absolute;
-   
+  position: absolute;
+
 
   margin-left: 50%;
   margin-top: 30%;
 }
-.mainspan{
+
+.mainspan {
   font-size: 25px;
 }
