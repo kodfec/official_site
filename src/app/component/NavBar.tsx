@@ -27,8 +27,10 @@ const NavBar = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
 
+ 
+
   return (
-    <nav className="header">
+    <nav className="header hover:animate-rainbow">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
         <div>
           <Link href="/" className="flex items-center">
