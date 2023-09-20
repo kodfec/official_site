@@ -72,3 +72,7 @@
 .fontchanges{
   font-family: 'Kenia', cursive;
 }
+
+.page-container{
+  height: 100vh;
+}

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Card2 = () => {
   return (
-    <div className="max-w-full w-full min-h-screen flex justify-center items-center bg-red-500">
+    <div className="max-w-full w-full min-h-screen flex justify-center items-center bg-amber-100">
       
         <div className="bg-white rounded-lg shadow-lg lg:max-w-5xl sm:max-w-full mx-4 sm:mx-0 p-6">
             <div className="text-center mb-6">
