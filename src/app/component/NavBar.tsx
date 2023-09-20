@@ -35,7 +35,7 @@ const NavBar = () => {
             <Image src={Logo} alt="logo" width={120} className="logo" />
           </Link>
         </div>
-        <div className="hidden md:flex justify-between space-x-4 ">
+        <div className="hidden md:flex justify-between space-x-4  ">
           <Link href="/">
             <div className="text-white hover:text-blue-300 space-x-8">Home</div>
           </Link>
