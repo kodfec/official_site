@@ -11,6 +11,7 @@ export default function Home() {
       <NavBar />
 
       <div>
+        
         {/* first card */}
         <div className="card bg-slate-400">
           <div>
@@ -38,21 +39,13 @@ export default function Home() {
           <Card2 />
         </div>
 
-<<<<<<< Updated upstream
-      {/* thrid card */}
-      <div className="card bg-blue-500">
-        <Card3 />
-      </div>
-
-      {/* </div> */}
-=======
         {/* thrid card */}
-        <div className="card bg-blue-500 py-8">
+        <div className="card bg-blue-500">
           <Card3 />
         </div>
 
       </div>
->>>>>>> Stashed changes
+
       <div className="footer">
         <Footer />
       </div>
