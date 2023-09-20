@@ -27,24 +27,24 @@ const NavBar = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
 
-
   return (
-    <nav className="header hover:animate-rainbow">
+    <nav className="header hover:animate-pulse bg-slate-900">
+
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
         <div>
           <Link href="/" className="flex items-center">
             <Image src={Logo} alt="logo" width={120} className="logo" />
           </Link>
         </div>
-        <div className="hidden md:flex justify-between space-x-4  ">
+        <div className="hidden md:flex justify-between space-x-16 text-xl font-bold">
           <Link href="/">
-            <div className="text-white hover:text-blue-300 space-x-8">Home</div>
+            <div className="text-white hover:text-blue-300">Home</div>
           </Link>
           <Link href={"/about"}>
-          <div className="text-white hover:text-blue-300">About</div>
+            <div className="text-white hover:text-blue-300">About</div>
           </Link>
-          <Link href={"/service"}>
-            <div className="text-white hover:text-blue-300">Services</div>
+          <Link href={"/quotation"}>
+            <div className="text-white hover:text-blue-300">Quotation</div>
           </Link>
           <Link href={"/portfolio"}>
             <div className="text-white hover:text-blue-300">Portfolio</div>
@@ -53,6 +53,7 @@ const NavBar = () => {
             <div className="text-white hover:text-blue-300">Contact</div>
           </Link>
         </div>
+
         <div className="md:hidden">
           <button
             id="mobile-menu-button"
@@ -103,9 +104,9 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/services">
+            <Link href="/quotation">
               <div className="block text-white hover:text-blue-300">
-                Services
+                Quotation
               </div>
             </Link>
           </li>

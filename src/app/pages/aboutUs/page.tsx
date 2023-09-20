@@ -3,11 +3,13 @@ import NavBar from "../../component/NavBar";
 
 const page = () => {
   return (
-    <div className="bg-slate-950 page-container">
+    <div className="bg-white  page-container">
       <NavBar />
-      <div className="pt-24 w-full bg-slate-500 h-screen">
-        <span>About Us</span>
+
+      <div className="pt-24 w-full h-screen">
+
       </div>
+
       <div className="footer bottom-0 w-full">
         <Footer />
       </div>
