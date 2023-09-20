@@ -38,7 +38,7 @@ export default function Home() {
         </div>
 
         {/* thrid card */}
-        <div className="card bg-blue-500">
+        <div className="card bg-blue-500 py-8">
           <Card3/>
         </div>
       {/* </div> */}
