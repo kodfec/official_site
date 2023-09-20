@@ -35,12 +35,12 @@ export default function Home() {
         </div>
 
         {/* secod card */}
-        <div className="card bg-white">
+        <div className="card bg-white shadow-2xl">
           <Card2 />
         </div>
 
         {/* thrid card */}
-        <div className="card bg-blue-500">
+        <div className="card bg-white shadow-2xl">
           <Card3 />
         </div>
 

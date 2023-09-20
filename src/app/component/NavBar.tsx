@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Logo from "/public/res/kodfec logo (1024 × 1024px).svg";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 
 const CloseIcon = () => (
   <svg
@@ -28,21 +27,6 @@ const NavBar = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  const router = useRouter()
-
-  const goToAboutUs = () => {
-    router.push("/aboutUs");
-  };
-  const goToContact = () => {
-    router.push("/contact");
-  };
-  const goToPortfolio = () => {
-    router.push("/portfolio");
-  };
-  const goToServices = () => {
-    router.push("/service");
-  };
- 
 
   return (
     <nav className="header hover:animate-rainbow">
@@ -56,18 +40,18 @@ const NavBar = () => {
           <Link href="/">
             <div className="text-white hover:text-blue-300 space-x-8">Home</div>
           </Link>
-          <button onClick={goToAboutUs}>
-            <div className="text-white hover:text-blue-300">About</div>
-          </button>
-          <button onClick={goToServices}>
+          <Link href={"/about"}>
+          <div className="text-white hover:text-blue-300">About</div>
+          </Link>
+          <Link href={"/service"}>
             <div className="text-white hover:text-blue-300">Services</div>
-          </button>
-          <button onClick={goToPortfolio}>
+          </Link>
+          <Link href={"/portfolio"}>
             <div className="text-white hover:text-blue-300">Portfolio</div>
-          </button>
-          <button onClick={goToContact}>
+          </Link>
+          <Link href={"/contact"}>
             <div className="text-white hover:text-blue-300">Contact</div>
-          </button>
+          </Link>
         </div>
         <div className="md:hidden">
           <button
