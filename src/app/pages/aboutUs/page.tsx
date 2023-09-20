@@ -64,7 +64,7 @@ const page = () => {
           <Image src={WorkingImg} alt="MissonImg" width={400} />
         </div>
         <div className="w-6/12 p-10 bg-blue-200 text-center">
-          <span className="text-3xl font-bold">Meet our developer team</span>
+          <span className="text-3xl font-bold dev-team-heder">Meet our developer team</span>
         </div>
       </div>
 
