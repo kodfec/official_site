@@ -2,6 +2,8 @@ import Image from "next/image";
 import background from "/public/res/2825704.gif";
 import NavBar from "./component/NavBar";
 import Card2 from "./component/Card2";
+import Card3 from "./component/Card3";
+
 export default function Home() {
   return (
     <div className="body">
@@ -36,7 +38,9 @@ export default function Home() {
         </div>
 
         {/* thrid card */}
-        <div className="card bg-blue-500"> card 3</div>
+        <div className="card bg-blue-500">
+          <Card3/>
+        </div>
       {/* </div> */}
       <div className="footer">footer</div>
     </div>

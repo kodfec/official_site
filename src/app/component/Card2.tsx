@@ -2,13 +2,13 @@ import Image from "next/image";
 
 const Card2 = () => {
   return (
-    <div className="max-w-full w-full min-h-screen flex justify-center items-center bg-slate-400">
+    <div className="max-w-full w-full min-h-screen flex justify-center items-center bg-red-500">
       
-        <div className="bg-white p-20 rounded-lg shadow-lg max-w-7xl w-full mx-4 sm:mx-auto">
-            <div className="text-center mb-6 p-2">
-                <span className="animate-pulse text-7xl font-semibold text-blue-600">WELCOME</span>
-                
-                <span className="animate-spin text-5xl font-semibold text-gray-700 ml-6">TO KODFEC</span>
+        <div className="bg-white rounded-lg shadow-lg lg:max-w-5xl sm:max-w-full mx-4 sm:mx-0 p-6">
+            <div className="text-center mb-6">
+                <span className="animate-pulse text-6xl font-semibold text-blue-600">WELCOME</span>
+                <br/>
+                <span className="animate-pulse text-4xl font-semibold text-gray-700">TO KODFEC</span>
             </div>
             <p className="text-gray-600 text-2xl text-justify">
                 Having you here makes us very happy. At KODFEC, we are passionate about
@@ -18,8 +18,8 @@ const Card2 = () => {
                 and products.
             </p>
           
-            <div className="animate-bounce mt-6">
-                <span className="text-5xl font-semibold text-green-600">GET IN TOUCH</span>
+            <div className="animate-bounce mt-6 justify-center">
+                <span className="text-4xl font-semibold text-green-600">GET IN TOUCH</span>
             </div>
             <p className="text-gray-600 text-2xl text-justify">
                 If you want to know more about our products or simply get in touch with
