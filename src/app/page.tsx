@@ -41,17 +41,11 @@ export default function Home() {
         <Card2 />
       </div>
 
-<<<<<<< Updated upstream
-        {/* thrid card */}
-        <div className="card bg-blue-500 py-8">
-          <Card3/>
-        </div>
-=======
       {/* thrid card */}
       <div className="card bg-blue-500">
         <Card3 />
       </div>
->>>>>>> Stashed changes
+
       {/* </div> */}
       <div className="footer">
         <Footer/>
