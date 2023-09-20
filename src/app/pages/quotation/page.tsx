@@ -6,7 +6,7 @@ const page = () => {
     <div className="bg-slate-950 page-container">
       <NavBar />
       <div className="pt-24 w-full bg-slate-500 h-screen">
-        <span>Service</span>
+        <span>Quotation</span>
       </div>
       <div className="footer bottom-0 w-full">
         <Footer />

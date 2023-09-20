@@ -11,8 +11,8 @@ const nextConfig = {
         destination: "/pages/aboutUs",
       },
       {
-        source: "/service",
-        destination: "/pages/service",
+        source: "/quotation",
+        destination: "/pages/quotation",
       },
       {
         source: "/portfolio",
