@@ -31,12 +31,11 @@
 }
 
 .footer {
-  background-color: #001627;
   color: white;
-  height: 200px;
-  display: flex;
+  display: flex; 
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .card {
@@ -53,7 +52,7 @@
 }
 
 .wordcontent {
-  /* width: 60%; */
+  width: 60%;
   background-color: rgba(0, 0, 0, 0.74);
   opacity: 3;
   /* padding-left: 20px; */
@@ -71,4 +70,8 @@
 }
 .fontchanges{
   font-family: 'Kenia', cursive;
+}
+
+.page-container{
+  height: 100vh;
 }

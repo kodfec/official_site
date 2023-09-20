@@ -2,12 +2,16 @@ import Image from "next/image";
 import background from "/public/res/2825704.gif";
 import NavBar from "./component/NavBar";
 import Card2 from "./component/Card2";
+import Card3 from "./component/Card3";
+import Footer from "./component/Footer";
+
 export default function Home() {
   return (
     <div className="body">
       <NavBar />
 
-      {/* <div> */}
+      <div>
+        
         {/* first card */}
         <div className="card bg-slate-400">
           <div>
@@ -32,13 +36,19 @@ export default function Home() {
 
         {/* secod card */}
         <div className="card bg-white">
-          <Card2/>
+          <Card2 />
         </div>
 
         {/* thrid card */}
-        <div className="card bg-blue-500"> card 3</div>
-      {/* </div> */}
-      <div className="footer">footer</div>
+        <div className="card bg-blue-500">
+          <Card3 />
+        </div>
+
+      </div>
+
+      <div className="footer">
+        <Footer />
+      </div>
     </div>
   );
 }

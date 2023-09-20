@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Logo from "/public/res/kodfec logo (1024 × 1024px).svg";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 const CloseIcon = () => (
   <svg
@@ -27,6 +28,20 @@ const NavBar = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  const router = useRouter()
+
+  const goToAboutUs = () => {
+    router.push("/aboutUs");
+  };
+  const goToContact = () => {
+    router.push("/contact");
+  };
+  const goToPortfolio = () => {
+    router.push("/portfolio");
+  };
+  const goToServices = () => {
+    router.push("/service");
+  };
  
 
   return (
@@ -41,18 +56,18 @@ const NavBar = () => {
           <Link href="/">
             <div className="text-white hover:text-blue-300 space-x-8">Home</div>
           </Link>
-          <Link href="/about">
+          <button onClick={goToAboutUs}>
             <div className="text-white hover:text-blue-300">About</div>
-          </Link>
-          <Link href="/services">
+          </button>
+          <button onClick={goToServices}>
             <div className="text-white hover:text-blue-300">Services</div>
-          </Link>
-          <Link href="/portfolio">
+          </button>
+          <button onClick={goToPortfolio}>
             <div className="text-white hover:text-blue-300">Portfolio</div>
-          </Link>
-          <Link href="/contact">
+          </button>
+          <button onClick={goToContact}>
             <div className="text-white hover:text-blue-300">Contact</div>
-          </Link>
+          </button>
         </div>
         <div className="md:hidden">
           <button
