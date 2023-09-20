@@ -29,7 +29,7 @@ const NavBar = () => {
 
 
   return (
-    <nav className="header hover:animate-rainbow">
+    <nav className="header hover:animate-rainbow bg-slate-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
         <div>
           <Link href="/" className="flex items-center">
