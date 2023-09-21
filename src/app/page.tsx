@@ -13,7 +13,7 @@ export default function Home() {
       <div>
         
         {/* first card */}
-        <div className="card bg-slate-400">
+        <div className="card-image ">
           <div>
             <Image
               src={background}
@@ -21,7 +21,7 @@ export default function Home() {
               className="w-full max-h-screen object-cover object-center absolute top-0 left-0"
             />
 
-            <div className=" rounded-md bg-transparent wordcontent lg:top-52 backdrop-blur-lg">
+            {/* <div className=" rounded-md bg-transparent wordcontent lg:top-52 backdrop-blur-lg">
               <span className=" font-bold text-lg mb-10 mainspan">
                 Powering Possibilities through Innovative Code
               </span>
@@ -30,7 +30,7 @@ export default function Home() {
                 software solutions that open up new possibilities for businesses
                 and individuals.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
 

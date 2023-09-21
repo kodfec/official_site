@@ -78,7 +78,7 @@ const Footer = () => {
             </p>
             <p className="text-white mb-2">
               <FaEnvelope className="text-xl inline" />
-              &nbsp;&nbsp;kodfec@gmail.com
+              &nbsp;&nbsp;contact@kodfec.com
             </p>
             <p className="text-white mb-2">
               <FaPhone className="text-xl inline" />
