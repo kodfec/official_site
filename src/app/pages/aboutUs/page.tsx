@@ -17,8 +17,8 @@ const page = () => {
     <div className="bg-white  page-container">
       <NavBar />
 
-      <div className="pt-24 w-full flex ">
-        <div className="w-6/12 m-10 ">
+      <div className="pt-24 w-full md:flex ">
+        <div className="w-ful m-10 md:w-6/12">
           <span className="text-4xl font-bold">Who we are..</span>
           <p className="mt-5 text-2xl text-slate-500">
             KODFEC serves as an extended remote development team for many medium-level organizations,
@@ -28,28 +28,29 @@ const page = () => {
             resulting in long-term financial gains.
           </p>
         </div>
-        <div className="w-6/12 m-10">
+        <div className=" md:w-6/12 m-10">
           <Image src={Image1} alt="Image1" width={400} />
         </div>
       </div>
 
-      <div className="w-full flex">
+      <div className="w-full md:flex">
 
-        <div className="w-6/12 m-10 border border-blue-400 rounded-lg p-5 flex">
-          <div className="w-32 ">
+        <div className="md:w-6/12 m-10 border border-blue-400 rounded-lg p-5 md:flex ">
+          <div className="md:w-32 w-auto  flex items-center justify-center">
             <Image src={VisionImg} alt="VisionImg" width={70} />
           </div>
-          <div className="ml-6">
+          <div className="ml-6 text-center md:text-left mt-5">
             <span className="font-bold text-xl">OUR VISION</span><br />
             <span>To bring the paradisiac and winning world to the fingertips of the entrepreneurs so that they can achieve more.</span>
           </div>
         </div>
 
-        <div className="w-6/12 m-10 border border-blue-400 rounded-lg p-5 flex">
-          <div className="w-64 ">
-            <Image src={MissonImg} alt="MissonImg" width={140} />
+
+        <div className="md:w-6/12 m-10 border border-blue-400 rounded-lg p-5 md:flex ">
+          <div className="md:w-64 w-auto  flex items-center justify-center">
+            <Image src={MissonImg} alt="MissonImg" width={70} />
           </div>
-          <div className="ml-6">
+          <div className="ml-6 text-center md:text-left mt-5">
             <span className="font-bold text-xl">OUR MISSION</span><br />
             <span>To spread throughout the world in order to create the most creative team that can change the world with their
               incredible energy and thoughts. To give unique range of products, in several industries.
@@ -59,8 +60,8 @@ const page = () => {
 
       </div>
 
-      <div className="w-full flex">
-        <div className="w-6/12 p-10">
+      <div className="w-full md:flex">
+        <div className="w-full md:w-6/12 p-10">
           <span className="text-3xl font-bold">Check these incredible short facts about KODFEC</span>
           <p className="text-lg text-slate-500 mt-5">
             Our team has grown over the years, but anyone joining us possesses the same key attributes.
@@ -69,27 +70,27 @@ const page = () => {
           </p>
           <Image src={WorkingImg} alt="MissonImg" width={400} />
         </div>
-        <div className="w-6/12 p-5 bg-blue-200 text-center">
+        <div className="w-full md:w-6/12 p-5 bg-blue-200 text-center">
           <span className="text-3xl font-bold dev-team-heder">Meet our developer team</span>
 
           {/* prodile card */}
           <div className="w-full flex">
-            <div className="w-8/12 border-r-4 border-blue-500 mt-10 text-start flex">
+            <div className="md:w-8/12 w-10/12 border-r-4 border-blue-500 mt-10 text-start md:flex">
               <Image src={PrifileImg} alt="MissonImg" width={60} />
               <div className="ml-4">
                 <span className="font-semibold text-blue-900 text-xl">Sulochana Rathnayaka</span><br />
                 <span className="font-medium text-slate-500 text-lg">CEO / Director</span>
               </div>
             </div>
-            <div className="w-4/12 mt-10 px-7 pt-2 flex justify-between">
+            <div className="md:w-4/12 w-2/12 mt-10 md:px-7 md:pt-2 md:flex pl-2 justify-between">
               <Link href={"/*"} className="col">
                 <Image src={FbIcon} alt="FbIco" width={40} />
               </Link>
               <Link href={"/*"}>
-                <Image src={InstaIcon}  className="col" alt="FbIco" width={40} />
+                <Image src={InstaIcon} className="col" alt="FbIco" width={40} />
               </Link>
               <Link href={"/*"}>
-                <Image src={LinkIcon}  className="col" alt="FbIco" width={40} />
+                <Image src={LinkIcon} className="col" alt="FbIco" width={40} />
               </Link>
             </div>
           </div>
@@ -97,95 +98,94 @@ const page = () => {
 
           {/* prodile card */}
           <div className="w-full flex">
-            <div className="w-8/12 border-r-4 border-blue-500 mt-10 text-start flex">
+            <div className="md:w-8/12 w-10/12 border-r-4 border-blue-500 mt-10 text-start md:flex">
               <Image src={PrifileImg} alt="MissonImg" width={60} />
               <div className="ml-4">
-                <span className="font-semibold text-blue-900 text-xl">Tharushi Rathnayaka</span><br />
-                <span className="font-medium text-slate-500 text-lg">CEO / Director</span>
+                <span className="font-semibold text-blue-900 text-xl">Tharushi Rodrigo</span><br />
+                <span className="font-medium text-slate-500 text-lg">Director</span>
               </div>
             </div>
-            <div className="w-4/12 mt-10 px-7 pt-2 flex justify-between">
+            <div className="md:w-4/12 w-2/12 mt-10 md:px-7 md:pt-2 md:flex pl-2 justify-between">
               <Link href={"/*"} className="col">
                 <Image src={FbIcon} alt="FbIco" width={40} />
               </Link>
               <Link href={"/*"}>
-                <Image src={InstaIcon}  className="col" alt="FbIco" width={40} />
+                <Image src={InstaIcon} className="col" alt="FbIco" width={40} />
               </Link>
               <Link href={"/*"}>
-                <Image src={LinkIcon}  className="col" alt="FbIco" width={40} />
+                <Image src={LinkIcon} className="col" alt="FbIco" width={40} />
               </Link>
             </div>
           </div>
           {/* prodile card */}
-
           {/* prodile card */}
           <div className="w-full flex">
-            <div className="w-8/12 border-r-4 border-blue-500 mt-10 text-start flex">
-              <Image src={PrifileImg} alt="MissonImg" width={60} />
-              <div className="ml-4">
-                <span className="font-semibold text-blue-900 text-xl">Pasindu Lakshan</span><br />
-                <span className="font-medium text-slate-500 text-lg">CEO / Director</span>
-              </div>
-            </div>
-            <div className="w-4/12 mt-10 px-7 pt-2 flex justify-between">
-              <Link href={"/*"} className="col">
-                <Image src={FbIcon} alt="FbIco" width={40} />
-              </Link>
-              <Link href={"/*"}>
-                <Image src={InstaIcon}  className="col" alt="FbIco" width={40} />
-              </Link>
-              <Link href={"/*"}>
-                <Image src={LinkIcon}  className="col" alt="FbIco" width={40} />
-              </Link>
-            </div>
-          </div>
-          {/* prodile card */}
-
-          {/* prodile card */}
-          <div className="w-full flex">
-            <div className="w-8/12 border-r-4 border-blue-500 mt-10 text-start flex">
+            <div className="md:w-8/12 w-10/12 border-r-4 border-blue-500 mt-10 text-start md:flex">
               <Image src={PrifileImg} alt="MissonImg" width={60} />
               <div className="ml-4">
                 <span className="font-semibold text-blue-900 text-xl">Virul Nirmala</span><br />
-                <span className="font-medium text-slate-500 text-lg">CEO / Director</span>
+                <span className="font-medium text-slate-500 text-lg">Director</span>
               </div>
             </div>
-            <div className="w-4/12 mt-10 px-7 pt-2 flex justify-between">
+            <div className="md:w-4/12 w-2/12 mt-10 md:px-7 md:pt-2 md:flex pl-2 justify-between">
               <Link href={"/*"} className="col">
                 <Image src={FbIcon} alt="FbIco" width={40} />
               </Link>
               <Link href={"/*"}>
-                <Image src={InstaIcon}  className="col" alt="FbIco" width={40} />
+                <Image src={InstaIcon} className="col" alt="FbIco" width={40} />
               </Link>
               <Link href={"/*"}>
-                <Image src={LinkIcon}  className="col" alt="FbIco" width={40} />
+                <Image src={LinkIcon} className="col" alt="FbIco" width={40} />
+              </Link>
+            </div>
+          </div>
+          {/* prodile card */}
+          {/* prodile card */}
+          <div className="w-full flex">
+            <div className="md:w-8/12 w-10/12 border-r-4 border-blue-500 mt-10 text-start md:flex">
+              <Image src={PrifileImg} alt="MissonImg" width={60} />
+              <div className="ml-4">
+                <span className="font-semibold text-blue-900 text-xl">Pasindu Lakshan</span><br />
+                <span className="font-medium text-slate-500 text-lg">Director</span>
+              </div>
+            </div>
+            <div className="md:w-4/12 w-2/12 mt-10 md:px-7 md:pt-2 md:flex pl-2 justify-between">
+              <Link href={"/*"} className="col">
+                <Image src={FbIcon} alt="FbIco" width={40} />
+              </Link>
+              <Link href={"/*"}>
+                <Image src={InstaIcon} className="col" alt="FbIco" width={40} />
+              </Link>
+              <Link href={"/*"}>
+                <Image src={LinkIcon} className="col" alt="FbIco" width={40} />
+              </Link>
+            </div>
+          </div>
+          {/* prodile card */}
+          {/* prodile card */}
+          <div className="w-full flex">
+            <div className="md:w-8/12 w-10/12 border-r-4 border-blue-500 mt-10 text-start md:flex">
+              <Image src={PrifileImg} alt="MissonImg" width={60} />
+              <div className="ml-4">
+                <span className="font-semibold text-blue-900 text-xl">Akash Maleesha</span><br />
+                <span className="font-medium text-slate-500 text-lg">Director</span>
+              </div>
+            </div>
+            <div className="md:w-4/12 w-2/12 mt-10 md:px-7 md:pt-2 md:flex pl-2 justify-between">
+              <Link href={"/*"} className="col">
+                <Image src={FbIcon} alt="FbIco" width={40} />
+              </Link>
+              <Link href={"/*"}>
+                <Image src={InstaIcon} className="col" alt="FbIco" width={40} />
+              </Link>
+              <Link href={"/*"}>
+                <Image src={LinkIcon} className="col" alt="FbIco" width={40} />
               </Link>
             </div>
           </div>
           {/* prodile card */}
 
-          {/* prodile card */}
-          <div className="w-full flex">
-            <div className="w-8/12 border-r-4 border-blue-500 mt-10 text-start flex">
-              <Image src={PrifileImg} alt="MissonImg" width={60} />
-              <div className="ml-4">
-                <span className="font-semibold text-blue-900 text-xl">Akash Maleesha</span><br />
-                <span className="font-medium text-slate-500 text-lg">CEO / Director</span>
-              </div>
-            </div>
-            <div className="w-4/12 mt-10 px-7 pt-2 flex justify-between">
-              <Link href={"/*"} className="col">
-                <Image src={FbIcon} alt="FbIco" width={40} />
-              </Link>
-              <Link href={"/*"}>
-                <Image src={InstaIcon}  className="col" alt="FbIco" width={40} />
-              </Link>
-              <Link href={"/*"}>
-                <Image src={LinkIcon}  className="col" alt="FbIco" width={40} />
-              </Link>
-            </div>
-          </div>
-          {/* prodile card */}
+          
 
         </div>
 

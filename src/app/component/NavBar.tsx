@@ -82,7 +82,7 @@ const NavBar = () => {
         id="mobile-menu"
         className={`md:hidden ${
           isMobileMenuOpen ? "block" : "hidden"
-        }  fixed top-0 right-0 h-screen w-60 bg-blue-800`}
+        }  fixed top-0 right-0 h-screen w-60 backdrop-blur-lg bg-blue-700 bg-opacity-40`}
       >
         <button
           id="mobile-menu-button"
@@ -95,31 +95,31 @@ const NavBar = () => {
         <ul className="mt-10 space-y-4 text-center">
           <li>
             <Link href="/">
-              <div className="block text-white hover:text-blue-300">Home</div>
+              <div className="block text-white hover:text-blue-500 hover:bg-white transition duration-500 hover:font-bold">Home</div>
             </Link>
           </li>
           <li>
             <Link href="/about">
-              <div className="block text-white hover:text-blue-300">About</div>
+              <div className="block text-white  hover:text-blue-500 hover:bg-white transition duration-500 hover:font-bold">About</div>
             </Link>
           </li>
           <li>
             <Link href="/quotation">
-              <div className="block text-white hover:text-blue-300">
+              <div className="block text-white  hover:text-blue-500 hover:bg-white transition duration-500 hover:font-bold">
                 Quotation
               </div>
             </Link>
           </li>
           <li>
             <Link href="/portfolio">
-              <div className="block text-white hover:text-blue-300">
+              <div className="block text-white  hover:text-blue-500 hover:bg-white transition duration-500 hover:font-bold">
                 Portfolio
               </div>
             </Link>
           </li>
           <li>
             <Link href="/contact">
-              <div className="block text-white hover:text-blue-300">
+              <div className="block text-white  hover:text-blue-500 hover:bg-white transition duration-500 hover:font-bold">
                 Contact
               </div>
             </Link>
