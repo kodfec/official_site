@@ -68,12 +68,21 @@ const page = () => {
                 <div className="w-full text-start px-6 mt-5 mb-2 font-bold">
                   <span>How shall we contact you?</span>
                 </div>
-                <div className="w-full sm:block md:flex">
-                  <div className="sm:w-full md:w-1/2">
+                <div className="w-full sm:block md:flex ">
+                  <div className="sm:w-full max-sm:mb-2 sm:mb-2 md:mb-0 md:w-1/2">
                     <input
                       className="w-11/12 border-blue-200 border-2 rounded-xl px-4 h-11"
                       type="text"
                       placeholder="Mobile Number"
+                      name=""
+                      id=""
+                    />
+                  </div>
+                  <div className="sm:w-full md:w-1/2">
+                    <input
+                      className="w-11/12 border-blue-200 border-2 rounded-xl px-4 h-11"
+                      type="text"
+                      placeholder="Email"
                       name=""
                       id=""
                     />
