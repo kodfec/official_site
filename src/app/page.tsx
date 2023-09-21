@@ -18,7 +18,7 @@ export default function Home() {
             <Image
               src={background}
               alt="background"
-              className="w-full h-screen object-cover object-center  top-0 left-0"
+              className="w-full h-screen object-cover object-center absolute top-0 left-0"
             />
 
             {/* <div className=" rounded-md bg-transparent wordcontent lg:top-52 backdrop-blur-lg">
