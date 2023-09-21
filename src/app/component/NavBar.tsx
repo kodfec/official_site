@@ -29,7 +29,6 @@ const NavBar = () => {
 
   return (
     <nav className="header bg-slate-900">
-
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
         <div>
           <Link href="/" className="flex items-center">
@@ -53,7 +52,6 @@ const NavBar = () => {
             <div className="text-white hover:text-blue-300">Contact</div>
           </Link>
         </div>
-
         <div className="md:hidden">
           <button
             id="mobile-menu-button"
@@ -91,16 +89,19 @@ const NavBar = () => {
         >
           {isMobileMenuOpen ? <CloseIcon /> : <div>Menu</div>}
         </button>
-
         <ul className="mt-10 space-y-4 text-center">
           <li>
             <Link href="/">
-              <div className="block text-white hover:text-blue-500 hover:bg-white transition duration-500 hover:font-bold">Home</div>
+              <div className="block text-white hover:text-blue-500 hover:bg-white transition duration-500 hover:font-bold">
+                Home
+              </div>
             </Link>
           </li>
           <li>
             <Link href="/about">
-              <div className="block text-white  hover:text-blue-500 hover:bg-white transition duration-500 hover:font-bold">About</div>
+              <div className="block text-white  hover:text-blue-500 hover:bg-white transition duration-500 hover:font-bold">
+                About
+              </div>
             </Link>
           </li>
           <li>

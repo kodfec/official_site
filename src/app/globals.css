@@ -8,11 +8,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
 }
 
 
 .header {
-  background-color: transparent;
+  /* background-color: transparent; */
   color: white;
   height: 100px;
   width: 100vw;
@@ -20,7 +21,6 @@
   z-index: 1000;
   padding-left: 10px;
   padding-right: 40px;
-  /* background-color: #001627; */
 }
 
 .logo {

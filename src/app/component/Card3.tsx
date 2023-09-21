@@ -8,7 +8,7 @@ import softwareConsultationIcon from "/public/res/softwareConsultation.png";
 
 const Card3 = () => {
   return (
-    <div className="container  px-4  rounded-lg shadow-lg py-10">
+    <div className="container  px-4  rounded-lg shadow-lg py-10 ">
       <div className="w-full md:px-40 md:flex text-center md:text-left bg-white pt-8 mb-5 rounded-lg shadow-lg">
         <div className="md:mb-10 md:max-w-fit w-full  border-e-4 border-blue-600 px-2">
           <span className="text-3xl font-bold text-blue-600">
@@ -25,7 +25,7 @@ const Card3 = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
         <div className="bg-white p-4 rounded-lg border border-blue-300 shadow-lg text-center">
           <div className="flex justify-center">
-            <Image src={mobileAppDevelopmentIcon} alt="Mobile Application" />
+            <Image src={mobileAppDevelopmentIcon} alt="Mobile Application"  className=" hover:bg-green-400"/>
           </div>
           <span className="font-semibold text-lg text-blue-600 ">Mobile Development</span>
           <p className="text-slate-600">
