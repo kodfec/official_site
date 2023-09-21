@@ -28,7 +28,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="header hover:animate-pulse bg-slate-900">
+    <nav className="header bg-slate-900">
 
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
         <div>

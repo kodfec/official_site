@@ -1,9 +1,17 @@
+"use client";
 import NavBar from "../../component/NavBar";
 import Footer from "../../component/Footer";
 import ShakeHand from "/public/res/shakehand.jpg";
 import Image from "next/image";
+import { useState } from "react";
 
 const page = () => {
+  const [fname, setFname] = useState("");
+  const [lname, setLname] = useState("");
+  const [mobile, setMobile] = useState("");
+  const[Address1,setAddres1] = useState("");
+  const[Address2,setAdress2]=useState("");
+
   return (
     <div className="bg-slate-950 page-container">
       <NavBar />
@@ -39,7 +47,7 @@ const page = () => {
                     <input
                       className="w-11/12 border-blue-200 border-2 rounded-xl px-4 h-11"
                       type="text"
-                      value={"First Name"}
+                      placeholder="first name"
                       name=""
                       id=""
                     />
@@ -48,7 +56,7 @@ const page = () => {
                     <input
                       className="w-11/12 border-blue-200 border-2 rounded-xl px-4 h-11"
                       type="text"
-                      value={"Last Name"}
+                      placeholder="Last Name"
                       name=""
                       id=""
                     />
@@ -65,7 +73,7 @@ const page = () => {
                     <input
                       className="w-11/12 border-blue-200 border-2 rounded-xl px-4 h-11"
                       type="text"
-                      value={"Mobile Number"}
+                      placeholder="Mobile Number"
                       name=""
                       id=""
                     />
@@ -82,7 +90,7 @@ const page = () => {
                     <input
                       className="w-11/12 border-blue-200 border-2 rounded-xl px-4 h-11"
                       type="text"
-                      value={"Address Line 1"}
+                      placeholder="Address Line 1"
                       name=""
                       id=""
                     />
@@ -91,7 +99,7 @@ const page = () => {
                     <input
                       className="w-11/12 border-blue-200 border-2 rounded-xl px-4 h-11"
                       type="text"
-                      value={"Address Line 2"}
+                      placeholder="Address Line 2 (Optional)"
                       name=""
                       id=""
                     />
@@ -104,20 +112,14 @@ const page = () => {
                   <span>How should we help you?</span>
                 </div>
                 <div className="w-full sm:block md:flex">
-                  <div className="sm:w-full md:w-1/2">
-                    <input
-                      className="w-11/12 border-blue-200 border-2 rounded-xl px-4 h-11"
-                      type="text"
-                      value={"None"}
-                      name=""
-                      id=""
-                    />
+                  <div className="sm:w-full md:w-full">
+                    <textarea className="w-11/12 border-blue-200 border-2 rounded-xl p-4 " id="" cols={40} rows={5} placeholder="Tell us about your requirement"></textarea>
                   </div>
                 </div>
               </div>
 
-              <div className="w-full mt-5 mb-5">
-                <button className="w-11/12 uppercase bg-blue-700 text-white p-4 rounded-2xl hover:bg-blue-500">
+              <div className="w-full mt-5 mb-5 flex justify-center items-center">
+                <button className=" uppercase bg-blue-700 text-white p-2 rounded-2xl hover:bg-blue-500 duration-1000">
                   Click to send quotation
                 </button>
               </div>
