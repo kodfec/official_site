@@ -33,6 +33,19 @@ const page = () => {
         </div>
       </div>
 
+      <div className="w-full  flex">
+        <div className="px-20 text-center">
+          <div className="anime-txt">
+
+            At the heart of our company is a passionate team of software engineers,
+            designers, and visionaries, all united by a common goal – to deliver exceptional software solutions.
+
+
+          </div>
+
+        </div>
+      </div>
+
       <div className="w-full md:flex">
 
         <div className="md:w-6/12 m-10 border border-blue-400 rounded-lg p-5 md:flex ">
@@ -185,7 +198,7 @@ const page = () => {
           </div>
           {/* prodile card */}
 
-          
+
 
         </div>
 
