@@ -21,7 +21,7 @@ export default function Home() {
               className="w-full max-h-screen object-cover object-center absolute top-0 left-0"
             />
 
-            <div className=" rounded-md bg-transparent wordcontent lg:top-52">
+            <div className=" rounded-md bg-transparent wordcontent lg:top-52 backdrop-blur-lg">
               <span className=" font-bold text-lg mb-10 mainspan">
                 Powering Possibilities through Innovative Code
               </span>

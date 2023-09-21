@@ -12,7 +12,7 @@ const Card2 = () => {
                         <span className=" animate-pulse text-7xl font-semibold text-blue-600">TO KODFEC</span>
                     </div>
                
-                    <p className="text-gray-600 text-2xl text-justify w-6/12">
+                    <p className="text-gray-600 text-xl text-justify w-6/12">
                         Having you here makes us very happy. At KODFEC, we are passionate about
                         developing outstanding software solutions that change the world. To
                         accomplish your demands and go above and beyond your expectations, our
@@ -24,7 +24,7 @@ const Card2 = () => {
                 <div className="animate-bounce mt-12 text-center">
                     <span className="text-5xl font-semibold text-green-600">GET IN TOUCH</span>
                 </div>
-                <p className="text-gray-600 text-2xl text-justify">
+                <p className="text-gray-600 text-xl text-center">
                     If you want to know more about our products or simply get in touch with
                     us, fill in the form here or please call one of our toll-free numbers
                     below or email using the contact form below.
