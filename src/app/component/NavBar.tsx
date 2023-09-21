@@ -35,21 +35,21 @@ const NavBar = () => {
             <Image src={Logo} alt="logo" width={120} className="logo" />
           </Link>
         </div>
-        <div className="hidden md:flex justify-between space-x-16 text-xl font-bold">
+        <div className="hidden md:flex justify-between space-x-16 text-xl font-bold h-10 ">
           <Link href="/">
-            <div className="text-white hover:text-blue-300">Home</div>
+            <div className="nav-heading">Home</div>
           </Link>
           <Link href={"/about"}>
-            <div className="text-white hover:text-blue-300">About</div>
+            <div className="nav-heading">About</div>
           </Link>
           <Link href={"/quotation"}>
-            <div className="text-white hover:text-blue-300">Quotation</div>
+            <div className="nav-heading">Quotation</div>
           </Link>
           <Link href={"/portfolio"}>
-            <div className="text-white hover:text-blue-300">Portfolio</div>
+            <div className="nav-heading">Portfolio</div>
           </Link>
           <Link href={"/contact"}>
-            <div className="text-white hover:text-blue-300">Contact</div>
+            <div className="nav-heading">Contact</div>
           </Link>
         </div>
         <div className="md:hidden">
