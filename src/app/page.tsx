@@ -40,7 +40,7 @@ export default function Home() {
         </div>
 
         {/* thrid card */}
-        <div className="card bg-white shadow-2xl">
+        <div className="card  bg-blue-50 shadow-2xl">
           <Card3 />
         </div>
 
