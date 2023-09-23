@@ -45,7 +45,7 @@ const page = () => {
       </div>
 
       <div className="w-full md:flex">
-        <div className="md:w-6/12 m-10 border border-blue-400 rounded-lg p-5 md:flex ">
+        <div className="md:w-6/12 m-10 border border-blue-400 rounded-lg p-5  ">
           <div className="md:w-32 w-auto  flex items-center justify-center">
             <Image src={VisionImg} alt="VisionImg" width={70} />
           </div>
@@ -59,7 +59,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="md:w-6/12 m-10 border border-blue-400 rounded-lg p-5 md:flex ">
+        <div className="md:w-6/12 m-10 border border-blue-400 rounded-lg p-5 ">
           <div className="md:w-64 w-auto  flex items-center justify-center">
             <Image src={MissonImg} alt="MissonImg" width={70} />
           </div>
