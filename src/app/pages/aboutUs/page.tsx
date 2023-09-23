@@ -114,13 +114,13 @@ const page = () => {
                   src={FbIcon}
                   alt="FbIco"
                   width={40}
-                  className="pb-2 md:mr-2"
+                  className="mb-2 md:mr-2"
                 />
               </Link>
               <Link href={"/*"}>
                 <Image
                   src={InstaIcon}
-                  className="col pb-2 md:mr-2"
+                  className="col mb-2 md:mr-2"
                   alt="FbIco"
                   width={40}
                 />
@@ -128,7 +128,7 @@ const page = () => {
               <Link href={"/*"}>
                 <Image
                   src={LinkIcon}
-                  className="col pb-2 md:mr-2"
+                  className="col mb-2 md:mr-2"
                   alt="FbIco"
                   width={40}
                 />
@@ -157,13 +157,13 @@ const page = () => {
                   src={FbIcon}
                   alt="FbIco"
                   width={40}
-                  className="pb-2 md:mr-2"
+                  className="mb-2 md:mr-2"
                 />
               </Link>
               <Link href={"/*"}>
                 <Image
                   src={InstaIcon}
-                  className="col pb-2 md:mr-2"
+                  className="col mb-2 md:mr-2"
                   alt="FbIco"
                   width={40}
                 />
@@ -171,7 +171,7 @@ const page = () => {
               <Link href={"/*"}>
                 <Image
                   src={LinkIcon}
-                  className="col pb-2 md:mr-2"
+                  className="col mb-2 md:mr-2"
                   alt="FbIco"
                   width={40}
                 />
@@ -199,13 +199,13 @@ const page = () => {
                   src={FbIcon}
                   alt="FbIco"
                   width={40}
-                  className="pb-2 md:mr-2"
+                  className="mb-2 md:mr-2"
                 />
               </Link>
               <Link href={"/*"}>
                 <Image
                   src={InstaIcon}
-                  className="col pb-2 md:mr-2"
+                  className="col mb-2 md:mr-2"
                   alt="FbIco"
                   width={40}
                 />
@@ -213,7 +213,7 @@ const page = () => {
               <Link href={"/*"}>
                 <Image
                   src={LinkIcon}
-                  className="col pb-2 md:mr-2"
+                  className="col mb-2 md:mr-2"
                   alt="FbIco"
                   width={40}
                 />
@@ -241,13 +241,13 @@ const page = () => {
                   src={FbIcon}
                   alt="FbIco"
                   width={40}
-                  className="pb-2 md:mr-2"
+                  className="mb-2 md:mr-2"
                 />
               </Link>
               <Link href={"/*"}>
                 <Image
                   src={InstaIcon}
-                  className="col pb-2 md:mr-2"
+                  className="col mb-2 md:mr-2"
                   alt="FbIco"
                   width={40}
                 />
@@ -255,7 +255,7 @@ const page = () => {
               <Link href={"/*"}>
                 <Image
                   src={LinkIcon}
-                  className="col pb-2 md:mr-2"
+                  className="col mb-2 md:mr-2"
                   alt="FbIco"
                   width={40}
                 />
@@ -279,12 +279,12 @@ const page = () => {
             </div>
             <div className=" md:w-4/12 w-2/12 mt-10 gap-x-1 md:px-7 md:pt-2 md:flex pl-2 justify-between">
               <Link href={"/*"} className="col">
-                <Image src={FbIcon} alt="FbIco" width={40} className="pb-2" />
+                <Image src={FbIcon} alt="FbIco" width={40} className="mb-2" />
               </Link>
               <Link href={"/*"}>
                 <Image
                   src={InstaIcon}
-                  className="col pb-2 md:mr-2"
+                  className="col mb-2 md:mr-2"
                   alt="FbIco"
                   width={40}
                 />
@@ -292,7 +292,7 @@ const page = () => {
               <Link href={"/*"}>
                 <Image
                   src={LinkIcon}
-                  className="col pb-2 md:mr-2"
+                  className="col mb-2 md:mr-2"
                   alt="FbIco"
                   width={40}
                 />
