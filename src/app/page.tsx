@@ -3,6 +3,7 @@ import background from "/public/res/2825704.gif";
 import NavBar from "./component/NavBar";
 import Card2 from "./component/Card2";
 import Card3 from "./component/Card3";
+import Card4 from "./component/Card4";
 import Footer from "./component/Footer";
 
 export default function Home() {
@@ -11,7 +12,6 @@ export default function Home() {
       <NavBar />
 
       <div>
-        
         {/* first card */}
         <div className="card-image ">
           <div>
@@ -44,6 +44,9 @@ export default function Home() {
           <Card3 />
         </div>
 
+        <div className="card bg-white shadow-2xl">
+          <Card4 />
+        </div>
       </div>
 
       <div className="footer">
