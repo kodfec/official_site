@@ -16,7 +16,7 @@ const page = () => {
     <div className="bg-white  page-container">
       <NavBar />
 
-      <div className="pt-24 w-full md:flex ">
+      <div className="pt-24 w-full md:flex">
         <div className="w-ful m-10 md:w-6/12">
           <span className="text-4xl font-bold">Who we are..</span>
           <p className="mt-5 text-2xl text-slate-500">
