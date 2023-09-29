@@ -1,16 +1,34 @@
 "use client";
 import NavBar from "../../component/NavBar";
 import Footer from "../../component/Footer";
+import  {sendQuotationForm}  from "../../lib/api";
 import ShakeHand from "/public/res/shakehand.jpg";
 import Image from "next/image";
 import { useState } from "react";
 
 const page = () => {
+
   const [fname, setFname] = useState("");
   const [lname, setLname] = useState("");
   const [mobile, setMobile] = useState("");
-  const[Address1,setAddres1] = useState("");
-  const[Address2,setAdress2]=useState("");
+  const [email, setEmail] = useState("");
+  const [Address1, setAddres1] = useState("");
+  const [Address2, setAddress2] = useState("");
+  const [requirement, setRequirement] = useState("");
+
+async function sendData() {
+    
+    const data = {
+      fname,
+      lname,
+      mobile,
+      email,
+      Address1,
+      Address2,
+      requirement,
+    };
+    await sendQuotationForm(data);
+      }
 
   return (
     <div className="bg-slate-950 page-container">
@@ -48,8 +66,12 @@ const page = () => {
                       className="w-11/12 border-blue-200 border-2 rounded-xl px-4 h-11"
                       type="text"
                       placeholder="first name"
-                      name=""
+                      name="fname"
                       id=""
+                      value={fname}
+                      onChange={(e: any) => {
+                        setFname(e.target.value);
+                      }}
                     />
                   </div>
                   <div className="sm:w-full md:w-1/2">
@@ -57,8 +79,12 @@ const page = () => {
                       className="w-11/12 border-blue-200 border-2 rounded-xl px-4 h-11"
                       type="text"
                       placeholder="Last Name"
-                      name=""
+                      name="lname"
                       id=""
+                      value={lname}
+                      onChange={(e: any) => {
+                        setLname(e.target.value);
+                      }}
                     />
                   </div>
                 </div>
@@ -74,8 +100,12 @@ const page = () => {
                       className="w-11/12 border-blue-200 border-2 rounded-xl px-4 h-11"
                       type="text"
                       placeholder="Mobile Number"
-                      name=""
+                      name="mobile"
                       id=""
+                      value={mobile}
+                      onChange={(e: any) => {
+                        setMobile(e.target.value);
+                      }}
                     />
                   </div>
                   <div className="sm:w-full md:w-1/2">
@@ -83,8 +113,12 @@ const page = () => {
                       className="w-11/12 border-blue-200 border-2 rounded-xl px-4 h-11"
                       type="text"
                       placeholder="Email"
-                      name=""
+                      name="email"
                       id=""
+                      value={email}
+                      onChange={(e: any) => {
+                        setEmail(e.target.value);
+                      }}
                     />
                   </div>
                 </div>
@@ -100,8 +134,12 @@ const page = () => {
                       className="w-11/12 border-blue-200 border-2 rounded-xl px-4 h-11"
                       type="text"
                       placeholder="Address Line 1"
-                      name=""
+                      name="line1"
                       id=""
+                      value={Address1}
+                      onChange={(e: any) => {
+                        setAddres1(e.target.value);
+                      }}
                     />
                   </div>
                   <div className=" sm:w-full md:w-1/2">
@@ -109,8 +147,12 @@ const page = () => {
                       className="w-11/12 border-blue-200 border-2 rounded-xl px-4 h-11"
                       type="text"
                       placeholder="Address Line 2 (Optional)"
-                      name=""
+                      name="line2"
                       id=""
+                      value={Address2}
+                      onChange={(e: any) => {
+                        setAddress2(e.target.value);
+                      }}
                     />
                   </div>
                 </div>
@@ -122,13 +164,27 @@ const page = () => {
                 </div>
                 <div className="w-full sm:block md:flex">
                   <div className="sm:w-full md:w-full">
-                    <textarea className="w-11/12 border-blue-200 border-2 rounded-xl p-4 " id="" cols={40} rows={5} placeholder="Tell us about your requirement"></textarea>
+                    <textarea
+                      className="w-11/12 border-blue-200 border-2 rounded-xl p-4 "
+                      name="requirement"
+                      id=""
+                      cols={40}
+                      rows={5}
+                      placeholder="Tell us about your requirement"
+                      value={requirement}
+                      onChange={(e: any) => {
+                        setRequirement(e.target.value);
+                      }}
+                    ></textarea>
                   </div>
                 </div>
               </div>
 
               <div className="w-full mt-5 mb-5 flex justify-center items-center">
-                <button className=" uppercase bg-blue-700 text-white p-2 rounded-2xl hover:bg-blue-500 duration-1000">
+                <button
+                  className=" uppercase bg-blue-700 text-white p-2 rounded-2xl hover:bg-blue-500 duration-1000"
+                  onClick={sendData}
+                >
                   Click to send quotation
                 </button>
               </div>
@@ -141,6 +197,7 @@ const page = () => {
       </div>
     </div>
   );
+  
 };
 
 export default page;
