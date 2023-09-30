@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { transporter,mailOptions } from "../../config/nodeMailer";
+import { connect } from "../../db/db";
 
 export async function POST(request:any) {
     let message;
@@ -23,6 +24,10 @@ export async function POST(request:any) {
         }else{
 
             try {
+                const connection = await connect();
+                const query = 'INSERT INTO quotation SET ?';
+                await connection.query(query, data);
+                await connection.end();
                  transporter.sendMail({
                     ...mailOptions,
                     subject:"Quotation",
