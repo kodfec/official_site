@@ -1,11 +1,11 @@
 import { NextResponse } from "next/server";
 import { transporter,mailOptions } from "../../config/nodeMailer";
 
-export async function POST(request, response) {
+export async function POST(request:any) {
     let message;
     let status;
     const data = await request.json();
-    console.log(data);
+    // console.log(data);
     if (request.method === 'POST') {
         status = 200;
         if (data.fname === "") {
@@ -74,7 +74,7 @@ export async function POST(request, response) {
 
                 });
                 message="Success";
-            } catch (error) {
+            } catch (error:any) {
                 console.log(error);
                 return NextResponse.json({ message: error.message }, { status: 400 });
             

@@ -1,4 +1,4 @@
-export const sendQuotationForm = async (data) => {
+export const sendQuotationForm = async (data:any) => {
 
     fetch('http://localhost:3000/api/emailData', {
         method: 'POST',

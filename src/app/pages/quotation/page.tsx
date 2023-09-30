@@ -27,6 +27,7 @@ async function sendData() {
       Address2,
       requirement,
     };
+    
     await sendQuotationForm(data);
       }
 
