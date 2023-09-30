@@ -8,6 +8,8 @@ import {
   FaHome,
   FaPhone,
   FaPrint,
+  FaPhoneVolume,
+  FaPhoneAlt,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -81,7 +83,7 @@ const Footer = () => {
               &nbsp;&nbsp;contact@kodfec.com
             </p>
             <p className="text-white mb-2">
-              <FaPhone className="text-xl inline" />
+              <FaPhoneAlt className="text-xl inline" />
               &nbsp;&nbsp;+94 767081491
             </p>
             <p className="text-white mb-2">
