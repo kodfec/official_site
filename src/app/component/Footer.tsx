@@ -42,7 +42,7 @@ const Footer = () => {
             <div className="text-center">
               <ul className="flex justify-center gap-4">
                 <li className="list-inline-item">
-                  <a href="#" className="text-white">
+                  <a href="https://web.facebook.com/kodfecPvtLimited/" className="text-white">
                     <FaFacebook className="text-3xl" />
                   </a>
                 </li>
