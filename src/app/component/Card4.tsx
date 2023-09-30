@@ -1,10 +1,10 @@
 "use client";
 
-import {motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
 const card4 = () => {
   return (
-    <div className="py-20 flex flex-col items-center">
+    <div className="py-20  flex flex-col items-center">
       <AnimatePresence>
         <motion.div
           className="bg-white shadow-xl mb-8 px-16 py-8 rounded-3xl w-4/5 md:w-3/5 lg:w-1/2 "
@@ -17,7 +17,7 @@ const card4 = () => {
             <p className="text-2xl font-bold text-blue-500">- Kinetic</p>
           </div>
           <div>
-            <p className="italic">
+            <p className="italic font-bold">
               "Your life is a reflection of how effectively you balance
               potential and kinetic energy"Steve Maraboli
             </p>
@@ -39,8 +39,8 @@ const card4 = () => {
             <p className="text-2xl font-bold text-blue-500">- Oriented</p>
           </div>
           <div>
-            <p className="italic">
-              "Action is the foundational key of success". Pablo Picasso
+            <p className="italic font-bold">
+              "Action is the foundational key of success" Pablo Picasso
             </p>
             <p className="mt-4">
               Kodfec is an action and goal oriented software company which
@@ -61,9 +61,10 @@ const card4 = () => {
             <p className="text-2xl font-bold text-blue-500">- Demandable</p>
           </div>
           <div>
-            <p className="italic">
+            <p className="italic font-bold">
               "The universe doesn't give you what you ask for with your
-              thoughts. It gives you what you demand with your actions"
+              thoughts. It gives you what you demand with your actions" Steve
+              Maraboli
             </p>
             <p className="text-black mt-4">
               We Kodfec helps who put their confidence in us to achieve their
@@ -83,7 +84,7 @@ const card4 = () => {
             <p className="text-2xl font-bold text-blue-500">- Flexible</p>
           </div>
           <div>
-            <p className="italic">
+            <p className="italic font-bold">
               "Flexibility makes building stronger. Imagine what it can do to
               your soul" Carlos Barrios
             </p>
@@ -102,7 +103,7 @@ const card4 = () => {
             <p className="text-2xl font-bold text-blue-500">- Enthusiastic</p>
           </div>
           <div>
-            <p className="italic">
+            <p className="italic font-bold">
               "All we need to make us really happy is something to be
               enthusiastic about" Charles Kingsley
             </p>
@@ -124,6 +125,10 @@ const card4 = () => {
             <p className="text-2xl font-bold text-blue-500">- Creative</p>
           </div>
           <div>
+            <p className="italic font-bold">
+              "Creativity is seeing what others see and thinking what no one
+              else ever thought" Albert Einstein
+            </p>
             <p className="text-black mt-4">
               Our comitted and expirienced team will come up with some creative
               new ways to make your vision a reality
