@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import Welcome from "/public/res/welcome.png";
+import { motion, AnimatePresence } from "framer-motion";
 
 const Card2 = () => {
   return (
@@ -23,11 +26,18 @@ const Card2 = () => {
             expectations, our team of dedicated experts is committed to offering
             top-notch services and products.
           </p>
-          <Image
-            className="max-sm:w-full sm:w-full max-sm:mt-5 sm:mt-5 md:mt-0 md:w-6/12 rounded-3xl animate-ping "
-            src={Welcome}
-            alt="Welcome"
-          />
+          <AnimatePresence>
+            <div className="h-20 max-sm:w-full sm:w-full max-sm:mt-5 sm:mt-5 md:mt-0 md:w-6/12">
+              <motion.div
+              initial={{opacity:0.3,width:"20%",height:"20%"}}
+              animate={{opacity:0.5,width:"80%",height:"80%"}}
+              exit={{opacity:1,width:"0%" ,height:"0%"}}
+              transition={{duration:3,repeat:Infinity}}
+              >
+                <Image className="rounded-3xl" src={Welcome} alt="Welcome" />
+              </motion.div>
+            </div>
+          </AnimatePresence>
         </div>
         <div className="animate-bounce mt-12 text-center">
           <span className="max-sm:text-4xl text-5xl font-semibold text-green-600">
