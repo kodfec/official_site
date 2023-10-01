@@ -10,6 +10,7 @@ import {
   FaPrint,
   FaPhoneVolume,
   FaPhoneAlt,
+  FaInstagram,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -52,12 +53,12 @@ const Footer = () => {
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="#" className="text-white">
-                    <FaGoogle className="text-3xl" />
+                  <a href="https://www.instagram.com/kodfec_pvt_ltd/" className="text-white">
+                    <FaInstagram className="text-3xl" />
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="#" className="text-white">
+                  <a href="https://www.linkedin.com/in/kodfec-corporation-a3a693287/" className="text-white">
                     <FaLinkedin className="text-3xl" />
                   </a>
                 </li>
@@ -95,7 +96,6 @@ const Footer = () => {
           <div className="w-full mt-4">
             <hr className="hr-break-1" />
           </div>
-
 
         </div>
       </div>
