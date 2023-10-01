@@ -6,7 +6,7 @@ import ShakeHand from "/public/res/shakehand.jpg";
 import Image from "next/image";
 import { useState } from "react";
 
-const page = () => {
+const Page = () => {
 
   const [fname, setFname] = useState("");
   const [lname, setLname] = useState("");
@@ -201,4 +201,4 @@ async function sendData() {
   
 };
 
-export default page;
+export default Page;

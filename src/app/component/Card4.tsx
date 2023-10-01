@@ -18,8 +18,8 @@ const card4 = () => {
           </div>
           <div>
             <p className="italic font-bold">
-              "Your life is a reflection of how effectively you balance
-              potential and kinetic energy"Steve Maraboli
+              Your life is a reflection of how effectively you balance potential
+              and kinetic energy - Steve Maraboli
             </p>
             <p className="text-black mt-4">
               As technology evolves, we kodfec kinetically adapt the work in
@@ -40,7 +40,7 @@ const card4 = () => {
           </div>
           <div>
             <p className="italic font-bold">
-              "Action is the foundational key of success" Pablo Picasso
+              Action is the foundational key of success. - Pablo Picasso
             </p>
             <p className="mt-4">
               Kodfec is an action and goal oriented software company which
@@ -62,9 +62,8 @@ const card4 = () => {
           </div>
           <div>
             <p className="italic font-bold">
-              "The universe doesn't give you what you ask for with your
-              thoughts. It gives you what you demand with your actions" Steve
-              Maraboli
+              The universe doesn't give you what you ask for with your thoughts.
+              It gives you what you demand with your actions
             </p>
             <p className="text-black mt-4">
               We Kodfec helps who put their confidence in us to achieve their
@@ -85,8 +84,8 @@ const card4 = () => {
           </div>
           <div>
             <p className="italic font-bold">
-              "Flexibility makes building stronger. Imagine what it can do to
-              your soul" Carlos Barrios
+              Flexibility makes building stronger. Imagine what it can do to
+              your soul - Carlos Barrios
             </p>
             <p className="text-black mt-4"> We Kodfec is flixible as water.</p>
           </div>
@@ -104,8 +103,8 @@ const card4 = () => {
           </div>
           <div>
             <p className="italic font-bold">
-              "All we need to make us really happy is something to be
-              enthusiastic about" Charles Kingsley
+              All we need to make us really happy is something to be
+              enthusiastic about - Charles Kingsley
             </p>
             <p className="text-black mt-4">
               We are more enthusiastic about the contentment of our clients and
