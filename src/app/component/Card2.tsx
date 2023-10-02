@@ -32,7 +32,7 @@ const Card2 = () => {
               initial={{opacity:0.3,width:"20%",height:"20%"}}
               animate={{opacity:0.5,width:"80%",height:"80%"}}
               exit={{opacity:1,width:"0%" ,height:"0%"}}
-              transition={{duration:3,repeat:Infinity}}
+              transition={{duration:4,repeat:Infinity}}
               >
                 <Image className="rounded-3xl" src={Welcome} alt="Welcome" />
               </motion.div>

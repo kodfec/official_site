@@ -4,7 +4,51 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const card4 = () => {
   return (
-    <div className="py-20  flex flex-col items-center">
+    <div className="py-50 flex flex-col items-center">
+   
+            <ul className="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+               </ul>
+    
       <AnimatePresence>
         <motion.div
           className="bg-white shadow-xl mb-8 px-16 py-8 rounded-3xl w-4/5 md:w-3/5 lg:w-1/2 "
