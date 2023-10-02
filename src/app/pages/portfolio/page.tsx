@@ -4,6 +4,7 @@ import Image from "next/image";
 import galleryImage from "/public/res/galleryIcon.png";
 
 const page = () => {
+  
   return (
     <div className="body">
       <NavBar />

@@ -11,7 +11,10 @@ import InstaIcon from "/public/res/insta-ico.png";
 import LinkIcon from "/public/res/linkedin-ico.png";
 
 import Link from "next/link";
+
+
 const page = () => {
+ 
   return (
     <div className="bg-white  page-container">
       <NavBar />

@@ -7,7 +7,7 @@ import Card4 from "./component/Card4";
 import Footer from "./component/Footer";
 
 export default async function Home() {
-  await new Promise((resolve)=>setTimeout(resolve,3000));
+  await new Promise((resolve) => setTimeout(resolve, 2000));
   return (
     <div className="body">
       <NavBar />
