@@ -106,7 +106,7 @@ const card4 = () => {
           </div>
           <div>
             <p className="italic font-bold">
-              The universe doesn't give you what you ask for with your thoughts.
+              The universe does not give you what you ask for with your thoughts.
               It gives you what you demand with your actions
             </p>
             <p className="text-black mt-4">

@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
 import { transporter,mailOptions } from "../../config/nodeMailer";
-import { connect } from "../../db/db";
 
 export async function POST(request:any) {
     let message;
