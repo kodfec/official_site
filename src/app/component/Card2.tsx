@@ -27,19 +27,19 @@ const Card2 = () => {
             top-notch services and products.
           </p>
           <AnimatePresence>
-            <div className="h-20 max-sm:w-full sm:w-full max-sm:mt-5 sm:mt-5 md:mt-0 md:w-6/12">
+            <div className="flex align-middle justify-center h-20 max-sm:w-full sm:w-full max-sm:mt-5 sm:mt-5 md:mt-0 md:w-6/12">
               <motion.div
               initial={{opacity:0.3,width:"20%",height:"20%"}}
               animate={{opacity:0.5,width:"80%",height:"80%"}}
               exit={{opacity:1,width:"0%" ,height:"0%"}}
-              transition={{duration:3,repeat:Infinity}}
+              transition={{duration:4,repeat:Infinity}}
               >
                 <Image className="rounded-3xl" src={Welcome} alt="Welcome" />
               </motion.div>
             </div>
           </AnimatePresence>
         </div>
-        <div className="animate-bounce mt-12 text-center">
+        <div className=" mt-12 text-center">
           <span className="max-sm:text-4xl text-5xl font-semibold text-green-600">
             GET IN TOUCH
           </span>

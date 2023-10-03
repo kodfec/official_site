@@ -9,6 +9,7 @@ import Footer from "../../component/Footer";
 import NavBar from "../../component/NavBar";
 
 const page = () => {
+ 
   return (
     <div className="bg-slate-950 page-container">
       <NavBar />
