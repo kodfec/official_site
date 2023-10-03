@@ -67,7 +67,7 @@ const card4 = () => {
             </p>
             <p className="text-black mt-4">
               As technology evolves, we kodfec kinetically adapt the work in
-              accordance with the situation to meet the clients' demands.
+              accordance with the situation to meet the clients demands.
             </p>
           </div>
         </motion.div>
