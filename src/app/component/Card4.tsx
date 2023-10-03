@@ -125,8 +125,8 @@ const card4 = () => {
           </div>
           <div>
             <p className="italic font-bold">
-              "Creativity is seeing what others see and thinking what no one
-              else ever thought" Albert Einstein
+              Creativity is seeing what others see and thinking what no one
+              else ever thought -  Albert Einstein
             </p>
             <p className="text-black mt-4">
               Our comitted and expirienced team will come up with some creative
