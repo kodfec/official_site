@@ -22,8 +22,8 @@ export default function CustomAlert({ message, onClose }) {
       <style jsx>{`
         .custom-alert {
             display: none;
-            position: absolute;
-            top: 10px;
+            position: fixed;
+            top: 0;
             left: 50%;
             transform: translateX(-50%);
             background-color: #6286e6;
@@ -31,8 +31,8 @@ export default function CustomAlert({ message, onClose }) {
             color: white;
             padding-top: 10px;
             padding-bottom: 10px;
-            padding-left:40px;
-            padding-right:40px;
+            padding-left:30px;
+            padding-right:30px;
             text-align: center;
             border-radius: 5px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
