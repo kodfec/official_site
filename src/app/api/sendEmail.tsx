@@ -6,51 +6,49 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export const sendEmail = async (data: string) => {
   const formData = JSON.parse(data);
   const fname = formData.fname;
-  const lname = formData.lname
-  const mobile = formData.mobile
-  const email = formData.email
-  const Address1 = formData.Address1
-  const Address2 = formData.Address2
-  const requirement = formData.requirement
+  const lname = formData.lname;
+  const mobile = formData.mobile;
+  const email = formData.email;
+  const Address1 = formData.Address1;
+  const Address2 = formData.Address2;
+  const requirement = formData.requirement;
 
-  if(!fname||typeof fname !== "string"){
-    return{
-        error:"Invalid fisrt name",
-    }
+  if (!fname || typeof fname !== "string") {
+    return {
+      error: "Invalid fisrt name",
+    };
   }
-  if(!lname||typeof lname !== "string"){
-    return{
-        error:"Invalid last name",
-    }
+  if (!lname || typeof lname !== "string") {
+    return {
+      error: "Invalid last name",
+    };
   }
-  if(!mobile||typeof mobile !== "string"){
-    return{
-        error:"Invalid mobile",
-    }
+  if (!mobile || typeof mobile !== "string") {
+    return {
+      error: "Invalid mobile",
+    };
   }
-  if(!email||typeof email !== "string"){
-    return{
-        error:"Invalid email",
-    }
+  if (!email || typeof email !== "string") {
+    return {
+      error: "Invalid email",
+    };
   }
-  if(!Address1||typeof Address1 !== "string"){
-    return{
-        error:"Invalid address",
-    }
+  if (!Address1 || typeof Address1 !== "string") {
+    return {
+      error: "Invalid address",
+    };
   }
-  if(!requirement||typeof requirement !== "string"){
-    return{
-        error:"Invalid requirement",
-    }
+  if (!requirement || typeof requirement !== "string") {
+    return {
+      error: "Invalid requirement",
+    };
   }
-
 
   await resend.emails.send({
     from: "Quotation Form <onboarding@resend.dev>",
-    to: "contact@kodfec.com",
-    cc:"kodfec@gmail.com",
+    to: "kodfec@gmail.com",
     subject: "Message from new client",
-    reply_to:email,
+    reply_to: email,
     html: `<!DOCTYPE html>
     <html lang="en">
     <head>
