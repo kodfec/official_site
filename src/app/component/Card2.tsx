@@ -27,7 +27,7 @@ const Card2 = () => {
             top-notch services and products.
           </p>
           <AnimatePresence>
-            <div className="flex align-middle justify-center h-20 max-sm:w-full sm:w-full max-sm:mt-5 sm:mt-5 md:mt-0 md:w-6/12">
+            <div className="flex items-center justify-center h-20 max-sm:w-full sm:w-full max-sm:mt-5 sm:mt-5 md:mt-0 md:w-6/12">
               <motion.div
               initial={{opacity:0.3,width:"20%",height:"20%"}}
               animate={{opacity:0.5,width:"80%",height:"80%"}}

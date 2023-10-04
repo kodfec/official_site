@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const card4 = () => {
   return (
-    <div className="py-50 flex flex-col items-center">
+    <div className="py-50 pt-10 pb-16 flex flex-col items-center">
    
             <ul className="circles">
                     <li></li>
