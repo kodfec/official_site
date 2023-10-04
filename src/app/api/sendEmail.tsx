@@ -47,7 +47,8 @@ export const sendEmail = async (data: string) => {
 
   await resend.emails.send({
     from: "Quotation Form <onboarding@resend.dev>",
-    to: "kodfec@gmail.com",
+    to: "contact@kodfec.com",
+    cc:"kodfec@gmail.com",
     subject: "Message from new client",
     reply_to:email,
     html: `<!DOCTYPE html>

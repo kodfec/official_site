@@ -9,13 +9,16 @@ import Footer from "./component/Footer";
 export default async function Home() {
   await new Promise((resolve) => setTimeout(resolve, 2000));
   return (
+
     <div className="body">
       <NavBar />
 
       <div>
+        
         {/* first card */}
         <div className="card-image ">
           <div>
+
             <Image
               src={background}
               alt="background"
@@ -32,6 +35,7 @@ export default async function Home() {
                 and individuals.
               </p>
             </div> */}
+
           </div>
         </div>
 
@@ -48,11 +52,14 @@ export default async function Home() {
         <div className="card max-sm:relative bg-white shadow-2xl">
           <Card4 />
         </div>
+
       </div>
 
       <div className="footer">
         <Footer />
       </div>
+
     </div>
+
   );
 }
