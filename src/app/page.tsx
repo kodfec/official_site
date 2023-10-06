@@ -9,23 +9,19 @@ import Footer from "./component/Footer";
 export default async function Home() {
   await new Promise((resolve) => setTimeout(resolve, 2000));
   return (
-
-    <div className="body">
+    <div className="portfolioBody">
       <NavBar />
 
       <div>
-        
-        {/* first card */}
-        <div className="card-image ">
+        <div className="card-image">
           <div>
-
             <Image
               src={background}
               alt="background"
               className="w-full h-screen object-cover object-center absolute top-0 left-0"
             />
 
-            {/* <div className=" rounded-md bg-transparent wordcontent lg:top-52 backdrop-blur-lg">
+            <div className=" rounded-md bg-transparent wordcontent max-sm:top-32 sm:top-32 md:top-52 backdrop-blur-lg">
               <span className=" font-bold text-lg mb-10 mainspan">
                 Powering Possibilities through Innovative Code
               </span>
@@ -34,17 +30,14 @@ export default async function Home() {
                 software solutions that open up new possibilities for businesses
                 and individuals.
               </p>
-            </div> */}
-
+            </div>
           </div>
         </div>
 
-        {/* secod card */}
         <div className="card max-sm:relative bg-white shadow-2xl">
           <Card2 />
         </div>
 
-        {/* thrid card */}
         <div className="card max-sm:relative bg-blue-50 shadow-2xl">
           <Card3 />
         </div>
@@ -52,14 +45,11 @@ export default async function Home() {
         <div className="card max-sm:relative bg-white shadow-2xl">
           <Card4 />
         </div>
-
       </div>
 
-      <div className="footer">
+      <div className="footerBar">
         <Footer />
       </div>
-
     </div>
-
   );
 }

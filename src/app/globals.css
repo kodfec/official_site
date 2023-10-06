@@ -45,7 +45,7 @@
   margin-top: -20px;
 }
 
-.footer {
+.footerBar {
   color: white;
   display: flex;
   justify-content: center;
@@ -677,7 +677,7 @@
 
 @keyframes animate1 {
   0% {
-    transform: translateY(-2000px) rotate(2880deg);
+    transform: translateY(-2900px) rotate(2880deg);
     opacity: 0.15;
     border-radius: 45%;
   }
@@ -687,3 +687,9 @@
     border-radius: 0;
   }
 }
+
+
+/* .tidio-chat {
+  width: 300px; 
+  height: 800px; 
+} */

@@ -71,7 +71,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className="footer bottom-0 w-full">
+      <div className="footerBar bottom-0 w-full">
         <Footer />
       </div>
     </div>

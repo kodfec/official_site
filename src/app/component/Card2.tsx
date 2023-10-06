@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import Welcome from "/public/res/welcome.png";
 import { motion, AnimatePresence } from "framer-motion";
@@ -7,8 +6,8 @@ import { motion, AnimatePresence } from "framer-motion";
 const Card2 = () => {
   return (
     <div className="max-w-full w-full min-h-screen flex justify-center items-center ">
-      <div className="bg-white p-20 rounded-lg shadow-lg max-w-7xl w-full mx-4 sm:mx-auto">
-        <div className="mb-6 p-2">
+      <div className="bg-white py-10 px-24 rounded-lg shadow-lg max-w-7xl w-full mx-4 sm:mx-auto">
+        <div className="mb-3 p-2">
           <span className="animate-spin max-sm:text-3xl text-4xl font-semibold text-gray-700 ">
             WELCOME
           </span>
@@ -39,7 +38,7 @@ const Card2 = () => {
             </div>
           </AnimatePresence>
         </div>
-        <div className=" mt-12 text-center">
+        <div className=" max-sm:mt-10 sm:mt-20 md:mt-24 text-center">
           <span className="max-sm:text-4xl text-5xl font-semibold text-green-600">
             GET IN TOUCH
           </span>

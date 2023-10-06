@@ -39,7 +39,7 @@ const Page = () => {
   };
 
   return (
-    <div className="bg-slate-950 page-container">
+    <div className="page-container">
       <NavBar />
 
       <div className="pt-28 w-ful flex justify-center items-center bg-white">
@@ -201,7 +201,7 @@ const Page = () => {
         </div>
       </div>
       <CustomAlert message={alertMessage} onClose={closeAlert} />
-      <div className="footer bottom-0 w-full">
+      <div className="footerBar bottom-0 w-full">
         <Footer />
       </div>
     </div>

@@ -23,6 +23,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <script className="tidio-chat"
+          src="//code.tidio.co/rd2643pqrzs7s4tj6eh8cse2wiokhmsk.js"
+          async
+        ></script>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );

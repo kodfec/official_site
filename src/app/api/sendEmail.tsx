@@ -1,7 +1,7 @@
 "use server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend("re_LejPhynt_J1fEeNwaZj1AZR71Z3w4Erke");
 
 export const sendEmail = async (data: string) => {
   const formData = JSON.parse(data);

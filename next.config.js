@@ -1,5 +1,8 @@
-/** @type {import('next').NextConfig} */
+/**
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
+  
   async rewrites() {
     return [
       {
@@ -28,7 +31,8 @@ const nextConfig = {
   experimental: {
     serverActions: true,
   },
-
+  // unoptimized:true,
+  output: 'export',
 };
 
 module.exports = nextConfig;

@@ -1,5 +1,4 @@
 "use client";
-
 import { motion, AnimatePresence } from "framer-motion";
 
 const card4 = () => {
@@ -57,18 +56,18 @@ const card4 = () => {
           whileInView={{ y: 30 }}
         >
           <div className="flex flex-row items-center">
-            <p className="text-8xl font-bold text-blue-700">K</p>
-            <p className="text-2xl font-bold text-blue-500">- Kinetic</p>
+            <span className="text-8xl font-bold text-blue-700">K</span>
+            <span className="text-2xl font-bold text-blue-500">- Kinetic</span>
           </div>
           <div>
-            <p className="italic font-bold">
+            <span className="italic font-bold">
               Your life is a reflection of how effectively you balance potential
               and kinetic energy - Steve Maraboli
-            </p>
+           </span>
             <p className="text-black mt-4">
               As technology evolves, we kodfec kinetically adapt the work in
               accordance with the situation to meet the clients demands.
-            </p>
+           </p>
           </div>
         </motion.div>
 
@@ -79,18 +78,18 @@ const card4 = () => {
           whileInView={{ y: 30 }}
         >
           <div className="flex flex-row items-center">
-            <p className="text-8xl font-bold text-blue-700">O</p>
-            <p className="text-2xl font-bold text-blue-500">- Oriented</p>
+            <span className="text-8xl font-bold text-blue-700">O</span>
+            <span className="text-2xl font-bold text-blue-500">- Oriented</span>
           </div>
           <div>
-            <p className="italic font-bold">
+            <span className="italic font-bold">
               Action is the foundational key of success. - Pablo Picasso
-            </p>
+           </span>
             <p className="mt-4">
               Kodfec is an action and goal oriented software company which
               brings your thoughts to reality so that you can be action and goal
               oriented.
-            </p>
+           </p>
           </div>
         </motion.div>
 
@@ -101,18 +100,18 @@ const card4 = () => {
           whileInView={{ y: 30 }}
         >
           <div className="flex flex-row items-center">
-            <p className="text-8xl font-bold text-blue-700">D</p>
-            <p className="text-2xl font-bold text-blue-500">- Demandable</p>
+            <span className="text-8xl font-bold text-blue-700">D</span>
+            <span className="text-2xl font-bold text-blue-500">- Demandable</span>
           </div>
           <div>
-            <p className="italic font-bold">
+            <span className="italic font-bold">
               The universe does not give you what you ask for with your thoughts.
               It gives you what you demand with your actions
-            </p>
+           </span>
             <p className="text-black mt-4">
               We Kodfec helps who put their confidence in us to achieve their
               objectives.
-            </p>
+           </p>
           </div>
         </motion.div>
 
@@ -123,14 +122,14 @@ const card4 = () => {
           whileInView={{ y: 30 }}
         >
           <div className="flex flex-row items-center">
-            <p className="text-8xl font-bold text-blue-700">F</p>
-            <p className="text-2xl font-bold text-blue-500">- Flexible</p>
+            <span className="text-8xl font-bold text-blue-700">F</span>
+            <span className="text-2xl font-bold text-blue-500">- Flexible</span>
           </div>
           <div>
-            <p className="italic font-bold">
+            <span className="italic font-bold">
               Flexibility makes building stronger. Imagine what it can do to
               your soul - Carlos Barrios
-            </p>
+           </span>
             <p className="text-black mt-4"> We Kodfec is flixible as water.</p>
           </div>
         </motion.div>
@@ -142,18 +141,18 @@ const card4 = () => {
           whileInView={{ y: 30 }}
         >
           <div className="flex flex-row items-center">
-            <p className="text-8xl font-bold text-blue-700">E</p>
-            <p className="text-2xl font-bold text-blue-500">- Enthusiastic</p>
+            <span className="text-8xl font-bold text-blue-700">E</span>
+            <span className="text-2xl font-bold text-blue-500">- Enthusiastic</span>
           </div>
           <div>
-            <p className="italic font-bold">
+            <span className="italic font-bold">
               All we need to make us really happy is something to be
               enthusiastic about - Charles Kingsley
-            </p>
+           </span>
             <p className="text-black mt-4">
               We are more enthusiastic about the contentment of our clients and
               the quality of our work
-            </p>
+           </p>
           </div>
         </motion.div>
 
@@ -164,18 +163,18 @@ const card4 = () => {
           whileInView={{ y: 30 }}
         >
           <div className="flex flex-row items-center">
-            <p className="text-8xl font-bold text-blue-700">C</p>
-            <p className="text-2xl font-bold text-blue-500">- Creative</p>
+            <span className="text-8xl font-bold text-blue-700">C</span>
+            <span className="text-2xl font-bold text-blue-500">- Creative</span>
           </div>
           <div>
-            <p className="italic font-bold">
+            <span className="italic font-bold">
               Creativity is seeing what others see and thinking what no one
               else ever thought -  Albert Einstein
-            </p>
+           </span>
             <p className="text-black mt-4">
               Our comitted and expirienced team will come up with some creative
               new ways to make your vision a reality
-            </p>
+           </p>
           </div>
         </motion.div>
       </AnimatePresence>

@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import webDevelopmentIcon from "/public/res/webDevelopmentIcon.png";
 import mobileAppDevelopmentIcon from "/public/res/mobileAppDevelopmentIcon.png";
@@ -7,7 +6,6 @@ import desktopAppDevelopmentIcon from "/public/res/desktopApplicationIcon.png";
 import posDevelopmentIcon from "/public/res/posDevelopmentIcon.png";
 import hostingServicesIcon from "/public/res/hostingServicesIcon.png";
 import softwareConsultationIcon from "/public/res/softwareConsultation.png";
-import { motion, AnimatePresence } from "framer-motion";
 
 const Card3 = () => {
  
