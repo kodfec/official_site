@@ -12,7 +12,7 @@ const page = () => {
   return (
     <div className="bg-slate-950 page-container">
       <NavBar />
-      <div className="pt-32 w-full bg-white">
+      <div className="pt-32 pb-14 w-full bg-white">
         <div className="w-full text-center px-4">
           <div className="w-full mt-4 pb-6 sm:block md:flex justify-center items-center">
             <div className="sm:w-full md:w-1/2 p-5">
